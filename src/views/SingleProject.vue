@@ -50,7 +50,7 @@
   import ProjectHeader from '../components/projects/ProjectHeader.vue';
   import ProjectGallery from '../components/projects/ProjectGallery.vue';
   import ProjectInfo from '../components/projects/ProjectInfo.vue';
-  
+  import { ref } from 'vue';
   import { hasScopeRef } from '@vue/compiler-core';
   
   export default {
